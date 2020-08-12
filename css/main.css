@@ -1,0 +1,163 @@
+body{
+    font-family: 'Raleway';
+    margin: 0;
+}
+#top-bar{
+    height: auto;
+    overflow: auto;
+    background-color: #1B242F;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#t-logo{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 20px;
+    float: left;
+    color: white;
+    margin-left: 5%;
+    opacity: 50%;
+
+}
+#t-navbar{
+    float: right;
+    margin-right: 30px;
+}
+#t-n-ul{
+    margin: 0;
+}
+#t-n-ul> li{
+    display: inline;
+    color: white;
+    margin-right: 34px;
+    font-size: 18px;
+    
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #252934;
+    width: 100%;
+    height: 649px;
+    overflow: auto;
+}
+#c-card{
+    display: flex;align-content: flex-start;
+    width: 70%;
+    height: 400px;
+    background-color: #167388;
+    box-sizing: border-box;
+}
+#img-container{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: tomato;
+    overflow: auto;
+}
+#description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    float: right;
+    margin: auto;
+    
+}
+#d-container{
+    text-align: center;
+    width: 300px;
+    
+}
+#d-container> button{
+    background-color: #5789D4;
+    padding: 5px 10px 5px 10px;
+    border-style: none;
+    color: white;
+}
+#d-container> p{
+    margin: 1px;
+}
+#d-container> p> b{
+    font-size: 40px;
+}
+#l-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 697px;
+    width: 100%;
+    padding-top: 3%;
+    box-sizing: border-box;
+}
+.about-c{background-color: #1B2430;}
+#l-title{
+
+    border-bottom: 3px rgba(255, 255, 255, 50%) solid;
+}
+#l-title> p{
+    margin: 0;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 50%);
+    font-weight: bolder;
+    font-style: italic;
+}
+#about-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    height: 400px;
+    width: 60%;
+    background: #0B4249;
+}
+#a-card-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    overflow: auto;
+}
+#a-card-left> img{
+    border-radius: 50%;
+}
+#a-card-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    width: 50%;
+    border-left: 3px #11858C solid;
+    padding-left: 2%;
+    box-sizing: border-box;
+}
+#a-card-right{
+    color: #fff;
+}
+#acr-word{
+    font-size: 30px;
+}
+.skills-c{
+    background-color: #252934;
+}
+#skills-card{
+    display: flex;
+    height: 400px;
+    width: 60%;
+    margin-top: 4%;
+    background-color: #fff;
+}
+#software-skills{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+#graphics-skills{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
