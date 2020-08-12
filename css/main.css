@@ -84,21 +84,22 @@ body{
 #d-container> p> b{
     font-size: 40px;
 }
-#about-container{
+#l-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #1B2430;
+    
     height: 697px;
     width: 100%;
     padding-top: 3%;
     box-sizing: border-box;
 }
-#about-title{
+.about-c{background-color: #1B2430;}
+#l-title{
 
     border-bottom: 3px rgba(255, 255, 255, 50%) solid;
 }
-#about-title> p{
+#l-title> p{
     margin: 0;
     font-size: 30px;
     color: rgba(255, 255, 255, 50%);
@@ -139,4 +140,24 @@ body{
 }
 #acr-word{
     font-size: 30px;
+}
+.skills-c{
+    background-color: #252934;
+}
+#skills-card{
+    display: flex;
+    height: 400px;
+    width: 60%;
+    margin-top: 4%;
+    background-color: #fff;
+}
+#software-skills{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+#graphics-skills{
+    display: flex;
+    justify-content: center;
+    width: 50%;
 }
