@@ -2,14 +2,17 @@ body{
     font-family: 'Raleway';
     margin: 0;
 }
-#top-bar{
+a{
+    text-decoration: none;
+}
+.top-bar{
     height: auto;
     overflow: auto;
     background-color: #1B242F;
     padding: 10px;
     box-sizing: border-box;
 }
-#t-logo{
+.t-logo{
     font-weight: bolder;
     font-style: italic;
     font-size: 20px;
@@ -19,21 +22,21 @@ body{
     opacity: 50%;
 
 }
-#t-navbar{
+.t-navbar{
     float: right;
     margin-right: 30px;
 }
-#t-n-ul{
+.t-n-ul{
     margin: 0;
 }
-#t-n-ul> li{
+.t-n-ul> li{
     display: inline;
     color: white;
     margin-right: 34px;
     font-size: 18px;
     
 }
-#container{
+.container{
     display: flex;
     justify-content: center;
     align-content: center;
@@ -43,21 +46,21 @@ body{
     height: 649px;
     overflow: auto;
 }
-#c-card{
+.c-card{
     display: flex;align-content: flex-start;
     width: 70%;
     height: 400px;
     background-color: #167388;
     box-sizing: border-box;
 }
-#img-container{
+.img-container{
     width: 50%;
     height: 100%;
     float: left;
     background-color: tomato;
     overflow: auto;
 }
-#description{
+.description{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,24 +70,24 @@ body{
     margin: auto;
     
 }
-#d-container{
+.d-container{
     text-align: center;
     width: 300px;
     
 }
-#d-container> button{
+.d-container> button{
     background-color: #5789D4;
     padding: 5px 10px 5px 10px;
     border-style: none;
     color: white;
 }
-#d-container> p{
+.d-container> p{
     margin: 1px;
 }
-#d-container> p> b{
+.d-container> p> b{
     font-size: 40px;
 }
-#l-container{
+.l-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,18 +98,18 @@ body{
     box-sizing: border-box;
 }
 .about-c{background-color: #1B2430;}
-#l-title{
+.l-title{
 
     border-bottom: 3px rgba(255, 255, 255, 50%) solid;
 }
-#l-title> p{
+.l-title> p{
     margin: 0;
     font-size: 30px;
     color: rgba(255, 255, 255, 50%);
     font-weight: bolder;
     font-style: italic;
 }
-#about-card{
+.about-card{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,49 +118,256 @@ body{
     width: 60%;
     background: #0B4249;
 }
-#a-card-left{
+.a-card-left{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 50%;
     overflow: auto;
 }
-#a-card-left> img{
+.a-card-left> img{
     border-radius: 50%;
 }
-#a-card-right{
+.a-card-right{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-style: italic;
+    text-align: center;
     height: 80%;
     width: 50%;
     border-left: 3px #11858C solid;
     padding-left: 2%;
     box-sizing: border-box;
 }
-#a-card-right{
+.a-card-right{
     color: #fff;
 }
-#acr-word{
+.acr-word{
     font-size: 30px;
+    font-style: normal;
 }
 .skills-c{
     background-color: #252934;
 }
-#skills-card{
+.skills-card{
     display: flex;
     height: 400px;
     width: 60%;
     margin-top: 4%;
     background-color: #fff;
 }
-#software-skills{
+.software-skills{
     display: flex;
     justify-content: center;
     width: 50%;
 }
-#graphics-skills{
+.graphics-skills{
     display: flex;
     justify-content: center;
     width: 50%;
+}
+.projects-card{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding: 2%;
+}
+.projects-c{
+    background-color: #C4C4C4;
+}
+.p-item{
+    width: 400px;
+    background-color: #fff;
+}
+.p-i-upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    height: 55%;
+    width: 100%;
+    background-color: #E1DBDB;
+    text-align: center;
+    box-sizing: border-box;
+}
+.p-i-upper>img{
+    width: 50%;
+}
+.p-i-lower{
+    padding: 2%;
+    height: 45%;
+}
+.p-i-lower>p{
+    margin-top: 2px;
+}
+.p-i-l-title{
+    margin-bottom: 10px;
+}
+.p-i-lower>ul{
+    list-style: none;
+}
+.p-i-lower>ul>li{
+    margin-bottom: 10px;
+}
+.p-i-thumbnail{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 50px;
+    float: left;
+    color: #555555;
+    opacity: 50%;
+}
+.button-1{
+    padding: 10px 30px 10px 30px;
+    border-style: none;
+    color: #fff;
+    font-weight: bold;
+}
+.hire-button{
+    background-color: #EE6F14;
+}
+.hire-button:hover{
+    background-color: rgb(15, 87, 92);
+}
+.blog-c{
+    background-color: #CFD2D8;
+}
+.blog-card{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    width: 90%;
+    padding: 2%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+.b-card-item{
+    width: 300px;
+    
+    background-color: #F0EEEE;
+    box-sizing: border-box;
+}
+.b-thumbnail{
+    position: relative;
+    max-height: 45%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.b-thumbnail>img{
+    width: 100%;
+}
+.b-description{
+    height:55%;
+    padding: 0px 3% 0px 3%;
+}
+.b-description>p{
+    margin: 5px 0px 5px 0px;
+    line-height: 25px;
+}
+.b-title{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #02607D;
+    padding-bottom: 10px;
+}
+.b-date{
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 50%)
+}
+.b-more-button{
+    background-color: royalblue;
+}
+.newslatter-container{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 216px;
+    background-image: url('../images/mail-1048452_1920.jpg');
+    background-size: cover;
+}
+
+.n-input{
+    padding: 15px;
+    width: 300px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-style: none;
+    background-color: #272728;
+}
+.n-button{
+    padding: 15px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-style: none;
+    background-color: #0E4E5C;
+    color: #fff;
+}
+.newslatter-t{
+    color: #fff !important;
+}
+.n-t-border{border-color: #fff;}
+.n-form-container{
+    margin: auto;
+    text-align: center;
+}
+.n-form-container>p{
+    color: #9C9C9C;
+    font-weight: normal;
+}
+.contact-c{
+    background-color: #C4C4C4;
+}
+.contact-card{
+    display: flex;
+    background-color: #131B1F;
+    height: 400px;
+    width: 70%;
+    padding: 10px;
+    margin-top: 5%;
+}
+.contact-form{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.contact-form>form>input{
+    padding: 20px;
+    width: 80%;
+}
+.contact-form>form>textarea{
+    width: 80%;
+    height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.c-form-input{
+    display: list-item;
+    border-style: none;
+    background-color: #272728;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.c-socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+.c-social{
+    border-radius: 50%;
+    height: 50px;
+}
+.c-m-container{
+    width: 300px;
+    text-align: center;
+    color: #fff;
 }
